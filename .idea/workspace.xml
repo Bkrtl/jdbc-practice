@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a93b2079-607a-4c66-9f8b-df16980ee4a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XGATsasqufSK1nDMI5eFfm1ZWi" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.HRApiTestWithJsonPath.findAllEmployeesExample">
+    <configuration name="HRApiTestWithJsonPath.countriesWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.HRApiTestWithJsonPath" />
+      <option name="METHOD_NAME" value="countriesWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HRApiTestWithJsonPath.findAllEmployeesExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.HRApiTestWithJsonPath" />
+      <option name="METHOD_NAME" value="findAllEmployeesExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HRApiTestsWithPath.countriesWithQueryParam2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.HRApiTestsWithPath" />
+      <option name="METHOD_NAME" value="countriesWithQueryParam2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HRApiTestsWithPath.getCountriesWithPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.HRApiTestsWithPath" />
+      <option name="METHOD_NAME" value="getCountriesWithPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanTestWithJsonPath.verifyoneSpartanWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.SpartanTestWithJsonPath" />
+      <option name="METHOD_NAME" value="verifyoneSpartanWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HRApiTestWithJsonPath.findAllEmployeesExample" />
+        <item itemvalue="TestNG.HRApiTestWithJsonPath.countriesWithJsonPath" />
+        <item itemvalue="TestNG.SpartanTestWithJsonPath.verifyoneSpartanWithJsonPath" />
+        <item itemvalue="TestNG.HRApiTestsWithPath.countriesWithQueryParam2" />
+        <item itemvalue="TestNG.HRApiTestsWithPath.getCountriesWithPath" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a93b2079-607a-4c66-9f8b-df16980ee4a8" name="Default Changelist" comment="" />
+      <created>1580662068691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580662068691</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom" timestamp="1581543669643">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958013" />
+    <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704166" />
+    <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.23.1280.733/1280.-38.1920.1057@0.23.1280.733" timestamp="1580839553813" />
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669643" />
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882678" />
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554188" />
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936929" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center" timestamp="1581543669642">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.center/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958012" />
+    <state width="1238" height="182" key="GridCell.Tab.0.center/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
+    <state width="1238" height="182" key="GridCell.Tab.0.center/0.23.1280.733/1280.-38.1920.1057@0.23.1280.733" timestamp="1580839553811" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669642" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882677" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554187" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936928" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left" timestamp="1581543669641">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.left/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958011" />
+    <state width="1238" height="182" key="GridCell.Tab.0.left/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
+    <state width="1238" height="182" key="GridCell.Tab.0.left/0.23.1280.733/1280.-38.1920.1057@0.23.1280.733" timestamp="1580839553809" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669641" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882676" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554186" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936928" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right" timestamp="1581543669642">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.right/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958012" />
+    <state width="1238" height="182" key="GridCell.Tab.0.right/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
+    <state width="1238" height="182" key="GridCell.Tab.0.right/0.23.1280.733/1280.-38.1920.1057@0.23.1280.733" timestamp="1580839553812" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669642" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882678" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554188" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936929" />
+  </component>
+</project>
