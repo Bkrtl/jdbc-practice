@@ -11,7 +11,7 @@ import static org.testng.Assert.*;
 
 public class HRApitests {
 
-/*
+    /*
         Create a new class HRApiTests
         createa a @Test getALLRegionsTest
         send a get request to AllRegions API endpoint

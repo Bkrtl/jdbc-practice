@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93b2079-607a-4c66-9f8b-df16980ee4a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_JsonSchema/JsonSchemaValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SingleSpartanSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day6_gson/POSTMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day6_gson/POSTMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day7/SpartanPutDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day7/SpartanPutDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day8_JsonSchema/JsonSchemaValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day8_JsonSchema/JsonSchemaValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/CBTrainingTestWithJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/CBTrainingTestWithJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/HRApitests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/HRApitests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/HamcrestMatchersApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/HamcrestMatchersApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/SpartanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/SpartanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/SpartanTestWithParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/SpartanTestWithParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/SpartanTestWithPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/SpartanTestWithPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apitests/SpartanTestWithParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apitests/SpartanTestWithParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apitests/SpartanTestWithPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apitests/SpartanTestWithPath.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,44 +59,21 @@
       <recent name="$PROJECT_DIR$/src/test/java/Day6_gson" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JsonSchemaValidation.jsonSchemaValidationForSpartan">
-    <configuration name="BookItAuthTest.getAllcampusWithAccessToken" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.jdbc_examples.metadata">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbctests.Main" />
       <module name="jdbc-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day7.*" />
+          <option name="PATTERN" value="jdbctests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day7" />
-      <option name="MAIN_CLASS_NAME" value="Day7.BookItAuthTest" />
-      <option name="METHOD_NAME" value="getAllcampusWithAccessToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSchemaValidation.jsonSchemaValidationForSpartan" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jdbc-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8_JsonSchema.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day8_JsonSchema" />
-      <option name="MAIN_CLASS_NAME" value="Day8_JsonSchema.JsonSchemaValidation" />
-      <option name="METHOD_NAME" value="jsonSchemaValidationForSpartan" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="POSTMethod.PostNewSpartanWithPOJO" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="POSTMethod.PostNewSpartanWithMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jdbc-practice" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +83,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day6_gson" />
       <option name="MAIN_CLASS_NAME" value="Day6_gson.POSTMethod" />
-      <option name="METHOD_NAME" value="PostNewSpartanWithPOJO" />
+      <option name="METHOD_NAME" value="PostNewSpartanWithMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPutDelete.DeleteASpartan" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanPutDelete.updatingSpartanWithPatch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jdbc-practice" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +101,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day7" />
       <option name="MAIN_CLASS_NAME" value="Day7.SpartanPutDelete" />
-      <option name="METHOD_NAME" value="DeleteASpartan" />
+      <option name="METHOD_NAME" value="updatingSpartanWithPatch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +109,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPutDelete.updatingSpartan" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanTestWithParameters.PositiveQueryParamTest4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jdbc-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day7.*" />
+          <option name="PATTERN" value="apitests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day7" />
-      <option name="MAIN_CLASS_NAME" value="Day7.SpartanPutDelete" />
-      <option name="METHOD_NAME" value="updatingSpartan" />
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.SpartanTestWithParameters" />
+      <option name="METHOD_NAME" value="PositiveQueryParamTest4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbc_examples.metadata" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctests" />
+      <option name="MAIN_CLASS_NAME" value="jdbctests.jdbc_examples" />
+      <option name="METHOD_NAME" value="metadata" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JsonSchemaValidation.jsonSchemaValidationForSpartan" />
-        <item itemvalue="TestNG.BookItAuthTest.getAllcampusWithAccessToken" />
-        <item itemvalue="TestNG.SpartanPutDelete.DeleteASpartan" />
-        <item itemvalue="TestNG.SpartanPutDelete.updatingSpartan" />
-        <item itemvalue="TestNG.POSTMethod.PostNewSpartanWithPOJO" />
+        <item itemvalue="TestNG.jdbc_examples.metadata" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.SpartanPutDelete.updatingSpartanWithPatch" />
+        <item itemvalue="TestNG.POSTMethod.PostNewSpartanWithMap" />
+        <item itemvalue="TestNG.SpartanTestWithParameters.PositiveQueryParamTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -180,26 +185,38 @@
       <option name="project" value="LOCAL" />
       <updated>1581977972110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day 8">
+      <created>1583854538353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583854538353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 7" />
+    <MESSAGE value="day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1581871631626">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="453" y="84" key="#com.intellij.ide.util.MemberChooser/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581871631626" />
-    <state x="263" y="23" key="CommitChangelistDialog2" timestamp="1581977971410">
-      <screen x="0" y="23" width="1280" height="740" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1583854537768">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1583854537768" />
     <state x="263" y="23" key="CommitChangelistDialog2/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581977971410" />
-    <state width="1238" height="213" key="GridCell.Tab.0.bottom" timestamp="1582667013917">
+    <state width="1238" height="301" key="GridCell.Tab.0.bottom" timestamp="1584832845423">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="213" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-38.1920.1057@0.0.1280.800" timestamp="1582667013917" />
+    <state width="1238" height="301" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1584832845423" />
+    <state width="1878" height="2" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-61.1920.1080@1280.-61.1920.1080" timestamp="1584368453476" />
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584008382297" />
     <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958013" />
     <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704166" />
     <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.732/1280.-38.1920.1057@0.23.1280.732" timestamp="1581619253756" />
@@ -207,14 +224,18 @@
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.734/1280.-38.1920.1057@0.23.1280.734" timestamp="1581544636387" />
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669643" />
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882678" />
+    <state width="1878" height="363" key="GridCell.Tab.0.bottom/0.23.1280.736/1280.-38.1920.1057@1280.-38.1920.1057" timestamp="1584293322710" />
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554188" />
     <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581977982604" />
     <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.741/1280.-38.1920.1057@0.23.1280.741" timestamp="1581970313270" />
     <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936929" />
-    <state width="1238" height="213" key="GridCell.Tab.0.center" timestamp="1582667013915">
+    <state width="1238" height="301" key="GridCell.Tab.0.center" timestamp="1584832845420">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="213" key="GridCell.Tab.0.center/0.0.1280.800/1280.-38.1920.1057@0.0.1280.800" timestamp="1582667013915" />
+    <state width="1238" height="301" key="GridCell.Tab.0.center/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1584832845420" />
+    <state width="1878" height="2" key="GridCell.Tab.0.center/0.0.1280.800/1280.-61.1920.1080@1280.-61.1920.1080" timestamp="1584368453474" />
+    <state width="1238" height="2" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584008382296" />
     <state width="1238" height="182" key="GridCell.Tab.0.center/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958012" />
     <state width="1238" height="182" key="GridCell.Tab.0.center/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
     <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.732/1280.-38.1920.1057@0.23.1280.732" timestamp="1581619253754" />
@@ -222,14 +243,18 @@
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.734/1280.-38.1920.1057@0.23.1280.734" timestamp="1581544636386" />
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669642" />
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882677" />
+    <state width="1878" height="363" key="GridCell.Tab.0.center/0.23.1280.736/1280.-38.1920.1057@1280.-38.1920.1057" timestamp="1584293322708" />
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554187" />
     <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581977982602" />
     <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.741/1280.-38.1920.1057@0.23.1280.741" timestamp="1581970313268" />
     <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936928" />
-    <state width="1238" height="213" key="GridCell.Tab.0.left" timestamp="1582667013914">
+    <state width="1238" height="301" key="GridCell.Tab.0.left" timestamp="1584832845419">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="213" key="GridCell.Tab.0.left/0.0.1280.800/1280.-38.1920.1057@0.0.1280.800" timestamp="1582667013914" />
+    <state width="1238" height="301" key="GridCell.Tab.0.left/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1584832845419" />
+    <state width="1878" height="2" key="GridCell.Tab.0.left/0.0.1280.800/1280.-61.1920.1080@1280.-61.1920.1080" timestamp="1584368453473" />
+    <state width="1238" height="2" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584008382295" />
     <state width="1238" height="182" key="GridCell.Tab.0.left/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958011" />
     <state width="1238" height="182" key="GridCell.Tab.0.left/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
     <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.732/1280.-38.1920.1057@0.23.1280.732" timestamp="1581619253753" />
@@ -237,14 +262,18 @@
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.734/1280.-38.1920.1057@0.23.1280.734" timestamp="1581544636385" />
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669641" />
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882676" />
+    <state width="1878" height="363" key="GridCell.Tab.0.left/0.23.1280.736/1280.-38.1920.1057@1280.-38.1920.1057" timestamp="1584293322708" />
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554186" />
     <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581977982601" />
     <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.741/1280.-38.1920.1057@0.23.1280.741" timestamp="1581970313267" />
     <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.777/1280.-38.1920.1005@0.23.1280.777" timestamp="1581460936928" />
-    <state width="1238" height="213" key="GridCell.Tab.0.right" timestamp="1582667013916">
+    <state width="1238" height="301" key="GridCell.Tab.0.right" timestamp="1584832845421">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="213" key="GridCell.Tab.0.right/0.0.1280.800/1280.-38.1920.1057@0.0.1280.800" timestamp="1582667013916" />
+    <state width="1238" height="301" key="GridCell.Tab.0.right/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1584832845421" />
+    <state width="1878" height="2" key="GridCell.Tab.0.right/0.0.1280.800/1280.-61.1920.1080@1280.-61.1920.1080" timestamp="1584368453475" />
+    <state width="1238" height="2" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584008382297" />
     <state width="1238" height="182" key="GridCell.Tab.0.right/0.23.1280.728/1280.-38.1920.1057@0.23.1280.728" timestamp="1580847958012" />
     <state width="1238" height="182" key="GridCell.Tab.0.right/0.23.1280.729/1280.-38.1920.1057@0.23.1280.729" timestamp="1580854704165" />
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.732/1280.-38.1920.1057@0.23.1280.732" timestamp="1581619253755" />
@@ -252,6 +281,7 @@
     <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.734/1280.-38.1920.1057@0.23.1280.734" timestamp="1581544636386" />
     <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.735/1280.-38.1920.1057@0.23.1280.735" timestamp="1581543669642" />
     <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.736/1280.-38.1920.1057@0.23.1280.736" timestamp="1581529882678" />
+    <state width="1878" height="363" key="GridCell.Tab.0.right/0.23.1280.736/1280.-38.1920.1057@1280.-38.1920.1057" timestamp="1584293322709" />
     <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.737/1280.-38.1920.1057@0.23.1280.737" timestamp="1580677554188" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.740/1280.-38.1920.1057@0.23.1280.740" timestamp="1581977982603" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.741/1280.-38.1920.1057@0.23.1280.741" timestamp="1581970313269" />
@@ -260,5 +290,9 @@
       <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state x="17" y="85" key="new project wizard/0.23.1280.738/1280.-38.1920.1057@0.23.1280.738" timestamp="1581722792229" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584119889739">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1584119889739" />
   </component>
 </project>

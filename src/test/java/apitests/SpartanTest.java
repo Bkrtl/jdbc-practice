@@ -116,7 +116,7 @@ public class SpartanTest {
         When I send get request to /api/spartans/3
         Then status code must be 200
         And Content type should be json
-
+        And body should contains Fidole
         */
 
     @Test

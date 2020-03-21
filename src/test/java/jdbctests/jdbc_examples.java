@@ -69,6 +69,7 @@ public class jdbc_examples {
         Connection connection = DriverManager.getConnection(dbUrl,dbUsername,dbPassword);
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
         ResultSet resultSet = statement.executeQuery("select * from departments");
+
         //get the databases related data inside the dbMetadata object
         DatabaseMetaData dbMetadata = connection.getMetaData();
         System.out.println("User: "+ dbMetadata.getUserName());
@@ -76,19 +77,20 @@ public class jdbc_examples {
         System.out.println("Database product version: "+ dbMetadata.getDatabaseProductVersion());
         System.out.println("Driver: "+ dbMetadata.getDriverName());
         System.out.println("Driver version: "+ dbMetadata.getDriverVersion());
+
         //get the resultset object metadata
         ResultSetMetaData rsMetadata = resultSet.getMetaData();
+
         //how many column we have ?
         System.out.println("Column count:"+rsMetadata.getColumnCount());
+
         //column names
-        //System.out.println(rsMetadata.getColumnName(8));
+        System.out.println(rsMetadata.getColumnName(1));
         //print all the column names dynamically
         int columnCount = rsMetadata.getColumnCount();
         for (int i = 1; i <=columnCount; i++) {
             System.out.println(rsMetadata.getColumnName(i));
         }
-
-
         resultSet.close();
         statement.close();
         connection.close();

@@ -9,7 +9,6 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.*;
 public class HamcrestMatchersApiTest {
-
     /*
     given accept type is Json
     And path param id is 15
@@ -22,10 +21,8 @@ public class HamcrestMatchersApiTest {
         "gender": "Female",
         "phone": 1938695106
      */
-
     @Test
     public void singleSpartanbyChaining() {
-
         given().accept(ContentType.JSON)
                 .and().pathParam("id", 15)
                 .when().get("http://3.92.216.221:8000/api/spartans/{id}")
@@ -35,9 +32,7 @@ public class HamcrestMatchersApiTest {
                 "name", equalTo("Meta"),
                 "gender", equalTo("Female"),
                 "phone", equalTo(1938695106));
-
     }
-
     @Test
     public void teacherData(){
         given().accept(ContentType.JSON).and()
@@ -48,25 +43,18 @@ public class HamcrestMatchersApiTest {
                 .and().body("teachers.firstName[0]",equalTo("Madham"),
                 "teachers.lastName[0]",equalTo("Mask"),
                 "teachers.emailAddress[0]",equalTo("jackma@gmail.com"));
-
-
     }
-
     // /teacher/department/{name} -->Computer
     //verify status code,content type
     //verify firstNames includes Madham,Ruslan,Alihan
-
     @Test
     public void teachersAllDataWithHamcrest(){
-
         given().accept(ContentType.JSON).and()
                 .pathParam("name","Computer")
                 .when().get("http://api.cybertektraining.com/teacher/department/{name}")
                 .then().assertThat().statusCode(200)
                 .and().contentType("application/json;charset=UTF-8")
                 .and().body("teachers.firstName", Matchers.hasItems("Madham","Ruslan","Alihan"));
-
-
     }
 
 }

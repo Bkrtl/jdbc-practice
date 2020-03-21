@@ -18,9 +18,9 @@ public class SpartanTestWithParameters {
     @BeforeClass
     public void setUpClass(){
         RestAssured.baseURI = ConfigurationReader.get("spartanapi.uri");
+        //RestAssured.baseURI = "http://54.161.128.36:8000/api
 
     }
-
 
     /*Given no headers provided
         When Users sends GET request to /api/hello

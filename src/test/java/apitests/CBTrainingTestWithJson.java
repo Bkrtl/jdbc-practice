@@ -30,10 +30,8 @@ public class CBTrainingTestWithJson {
         System.out.println("firstName = " + firstName);
         String lastName = json.get("students.lastName[0]");
         System.out.println("lastName = " + lastName);
-
         String phone = json.getString("students.contact[0].phone");
         System.out.println("phone = " + phone);
-
         String email = json.getString("students.contact[0].emailAddress");
         System.out.println("email = " + email);
 

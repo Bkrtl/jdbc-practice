@@ -43,9 +43,7 @@ public class SpartanTestWithPath {
         assertEquals(response.statusCode(),200);
         assertEquals(response.contentType(),"application/json;charset=UTF-8");
 
-
         //print response json body
-
         System.out.println("ID: "+response.body().path("id").toString());
         System.out.println("Name: "+response.path("name").toString());
         System.out.println("Gender: "+response.body().path("gender").toString());

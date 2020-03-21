@@ -8,6 +8,7 @@ import utilities.ConfigurationReader;
 import static io.restassured.RestAssured.*;
 import static org.testng.Assert.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
+
 public class JsonSchemaValidation {
     @BeforeClass
     public void setUp() {

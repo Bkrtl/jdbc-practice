@@ -34,6 +34,7 @@ public class SpartanPutDelete {
                 .assertThat().statusCode(204);
     }
 
+
     @Test
 
     public void DeleteASpartan(){

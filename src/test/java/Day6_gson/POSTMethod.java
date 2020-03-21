@@ -61,8 +61,6 @@ public class POSTMethod {
         assertEquals(gender,"Male");
         assertEquals(phone,5478783575l);
         System.out.println(response.path("data.id").toString());
-
-
     }
     //send body with map
 
